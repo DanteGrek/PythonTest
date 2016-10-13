@@ -1,0 +1,95 @@
+{
+  "uid" : "6c1c04bf1134ac98",
+  "name" : "TestGoogleSearch.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476285881469,
+    "stop" : 1476285907662,
+    "duration" : 26193
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ad9dcde6cdb954b1",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ {
+    "name" : "input_text",
+    "title" : "input_text",
+    "time" : {
+      "start" : 1476285881470,
+      "stop" : 1476285884599,
+      "duration" : 3129
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476285884599,
+      "stop" : 1476285886649,
+      "duration" : 2050
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "close_alert",
+    "title" : "close_alert",
+    "time" : {
+      "start" : 1476285886649,
+      "stop" : 1476285892712,
+      "duration" : 6063
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "f0487c18-fda2-4e3e-acde-092e7a89dedc-attachment.png",
+    "type" : "image/png",
+    "size" : 166089,
+    "uid" : "3481b727ad71348f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "thread",
+    "value" : "47398-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

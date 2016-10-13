@@ -1,0 +1,65 @@
+{
+  "uid" : "e42a90aec15d365c",
+  "name" : "TestGoogleSearch.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476282853733,
+    "stop" : 1476282879913,
+    "duration" : 26180
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d21899fde61dd8e",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ {
+    "name" : "Click on ('xpath', '//button')",
+    "title" : "Click on ('xpath', '//button')",
+    "time" : {
+      "start" : 1476282856809,
+      "stop" : 1476282858862,
+      "duration" : 2053
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "85506f3a-02b3-4393-b401-6b76e5005a36-attachment.png",
+    "type" : "image/png",
+    "size" : 149951,
+    "uid" : "28d1402a07ea15ad"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "45498-MainThread"
+  } ],
+  "parameters" : [ ]
+}

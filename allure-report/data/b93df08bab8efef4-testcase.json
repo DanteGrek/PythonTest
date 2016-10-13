@@ -1,0 +1,104 @@
+{
+  "uid" : "b93df08bab8efef4",
+  "name" : "TestGoogleSearch2.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476351493418,
+    "stop" : 1476351504749,
+    "duration" : 11331
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a827ce641c49c72f",
+    "name" : "google_test.web_test.test_web_google",
+    "title" : "Test web google"
+  },
+  "steps" : [ {
+    "name" : "Input text: 'JavaScript guide' into Input field",
+    "title" : "Input text: 'JavaScript guide' into Input field",
+    "time" : {
+      "start" : 1476351497793,
+      "stop" : 1476351497980,
+      "duration" : 187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476351497981,
+      "stop" : 1476351498142,
+      "duration" : 161
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Close alert",
+    "title" : "Close alert",
+    "time" : {
+      "start" : 1476351498142,
+      "stop" : 1476351503228,
+      "duration" : 5086
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Change to English",
+    "title" : "Click on Change to English",
+    "time" : {
+      "start" : 1476351503271,
+      "stop" : 1476351504332,
+      "duration" : 1061
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "52526-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.web_test.test_web_google"
+  } ],
+  "parameters" : [ ]
+}

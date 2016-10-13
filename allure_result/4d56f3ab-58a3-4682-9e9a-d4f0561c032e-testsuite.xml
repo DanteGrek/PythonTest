@@ -1,0 +1,110 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1476369682803" stop="1476369781867">
+  <name>google_test.web_test.test_web_google</name>
+  <test-cases>
+    <test-case start="1476369682803" status="failed" stop="1476369697274">
+      <name>TestGoogleSearch.test_search</name>
+      <failure>
+        <message>AssertionError: [u"'Pokemon GO Wiki Guide - IGN' is not contains: 'Go'", u"'Pokemon GO Hub | Pokemon GO News, Guides, Tips and Tricks' is not contains: 'Go'", u"'Pokemon GO Guide: How To Control Eevee's Evolution - Game Rant' is not contains: 'Go'"]</message>
+        <stack-trace>self = &lt;google_test.web_test.test_web_google.TestGoogleSearch instance at 0x1086e8248&gt;
+
+    def test_search(self):
+        main_google_page = MainGooglePage()
+        main_google_page.search('Go guide')
+&gt;       main_google_page.is_search_result_contains('Go')
+
+google_test/web_test/test_web_google.py:11: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+pages/pages.py:93: in is_search_result_contains
+    soft.assert_all()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;framework.soft_assert.SoftAssert instance at 0x1086dd248&gt;
+
+    def assert_all(self):
+&gt;       assert not self.fails, self.fails
+E       AssertionError: [u"'Pokemon GO Wiki Guide - IGN' is not contains: 'Go'", u"'Pokemon GO Hub | Pokemon GO News, Guides, Tips and Tricks' is not contains: 'Go'", u"'Pokemon GO Guide: How To Control Eevee's Evolution - Game Rant' is not contains: 'Go'"]
+
+framework/soft_assert.py:24: AssertionError</stack-trace>
+      </failure>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54638-MainThread"/>
+        <label name="host" value="miniMonster.local"/>
+      </labels>
+      <attachments/>
+      <steps>
+        <step start="1476369688257" status="passed" stop="1476369689670">
+          <title>Input text: 'Go guide' into Input field</title>
+          <name>Input text: 'Go guide' into Input field</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1476369689670" status="passed" stop="1476369690010">
+          <title>Click on Submit button</title>
+          <name>Click on Submit button</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1476369695136" status="passed" stop="1476369696675">
+          <title>Click on Change to English</title>
+          <name>Click on Change to English</name>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1476369769239" status="failed" stop="1476369781867">
+      <name>TestGoogleSearch2.test_search2</name>
+      <failure>
+        <message>AssertionError: [u"'JS: The Right Way' is not contains: 'Java'"]</message>
+        <stack-trace>self = &lt;google_test.web_test.test_web_google.TestGoogleSearch2 instance at 0x10f9e2ea8&gt;
+
+    def test_search2(self):
+        main_google_page = MainGooglePage()
+        main_google_page.search('JavaScript guide')
+&gt;       main_google_page.is_search_result_contains('Java')
+
+google_test/web_test/test_web_google.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+pages/pages.py:93: in is_search_result_contains
+    soft.assert_all()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;framework.soft_assert.SoftAssert instance at 0x10f9c7a28&gt;
+
+    def assert_all(self):
+&gt;       assert not self.fails, self.fails
+E       AssertionError: [u"'JS: The Right Way' is not contains: 'Java'"]
+
+framework/soft_assert.py:24: AssertionError</stack-trace>
+      </failure>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="54639-MainThread"/>
+        <label name="host" value="miniMonster.local"/>
+      </labels>
+      <attachments/>
+      <steps>
+        <step start="1476369774417" status="passed" stop="1476369774599">
+          <title>Input text: 'JavaScript guide' into Input field</title>
+          <name>Input text: 'JavaScript guide' into Input field</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1476369774599" status="passed" stop="1476369774759">
+          <title>Click on Submit button</title>
+          <name>Click on Submit button</name>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1476369779922" status="passed" stop="1476369781304">
+          <title>Click on Change to English</title>
+          <name>Click on Change to English</name>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

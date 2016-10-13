@@ -1,0 +1,92 @@
+{
+  "uid" : "2660db665623fb2e",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476366598794,
+    "stop" : 1476366614227,
+    "duration" : 15433
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionError: [u\"'Pokemon GO Wiki Guide - IGN' is not contains: 'Go'\", u\"'Pokemon GO Hub | Pokemon GO News, Guides, Tips and Tricks' is not contains: 'Go'\", u\"'Pokemon GO Guide: How To Control Eevee's Evolution - Game Rant' is not contains: 'Go'\"]",
+    "stackTrace" : "self = <google_test.web_test.test_web_google.TestGoogleSearch instance at 0x110998248>\n\n    def test_search(self):\n        main_google_page = MainGooglePage()\n        main_google_page.search('Go guide')\n>       main_google_page.is_search_result_contains('Go')\n\ngoogle_test/web_test/test_web_google.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/pages.py:93: in is_search_result_contains\n    soft.assert_all()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <framework.soft_assert.SoftAssert instance at 0x11098e128>\n\n    def assert_all(self):\n>           assert self.fails is False, self.fails\nE           AssertionError: [u\"'Pokemon GO Wiki Guide - IGN' is not contains: 'Go'\", u\"'Pokemon GO Hub | Pokemon GO News, Guides, Tips and Tricks' is not contains: 'Go'\", u\"'Pokemon GO Guide: How To Control Eevee's Evolution - Game Rant' is not contains: 'Go'\"]\n\nframework/soft_assert.py:24: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f25cb31a188fbf31",
+    "name" : "google_test.web_test.test_web_google",
+    "title" : "Test web google"
+  },
+  "steps" : [ {
+    "name" : "Input text: 'Go guide' into Input field",
+    "title" : "Input text: 'Go guide' into Input field",
+    "time" : {
+      "start" : 1476366603643,
+      "stop" : 1476366605409,
+      "duration" : 1766
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476366605409,
+      "stop" : 1476366605791,
+      "duration" : 382
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Change to English",
+    "title" : "Click on Change to English",
+    "time" : {
+      "start" : 1476366610934,
+      "stop" : 1476366613611,
+      "duration" : 2677
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "54076-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.web_test.test_web_google"
+  } ],
+  "parameters" : [ ]
+}

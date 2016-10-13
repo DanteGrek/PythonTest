@@ -1,0 +1,50 @@
+{
+  "uid" : "13e79cb9496c0538",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476193205527,
+    "stop" : 1476193271955,
+    "duration" : 66428
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2c9aa588a3dae6f4",
+    "name" : "google_test.test_google",
+    "title" : "Test google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "a80cd0f5-54f2-4914-aa87-4fd96d31662f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "562760e7f6cab505"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.test_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "31647-MainThread"
+  } ],
+  "parameters" : [ ]
+}

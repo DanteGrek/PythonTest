@@ -1,0 +1,50 @@
+{
+  "uid" : "a217e018dc6ca2d0",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476278068746,
+    "stop" : 1476278144443,
+    "duration" : 75697
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "47939da72f7e79e4",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "3279e660-5feb-4486-9c9f-c97cab416cc8-attachment.png",
+    "type" : "image/png",
+    "size" : 166979,
+    "uid" : "869be45c6b85b9dc"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "41557-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

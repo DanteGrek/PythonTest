@@ -1,0 +1,53 @@
+{
+  "uid" : "b154b4cd9774c9c7",
+  "name" : "TestGoogleSearch.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476281713000,
+    "stop" : 1476281713048,
+    "duration" : 48
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TypeError: find_element() takes at most 3 arguments (4 given)",
+    "stackTrace" : "self = <google_test.mobile_test.test_ios_google.TestGoogleSearch instance at 0x107079560>\n\n    def test_search2(self):\n        main_google_page = MainGooglePage()\n>       main_google_page.search('Java guide')\n\ngoogle_test/mobile_test/test_ios_google.py:15: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/pages.py:69: in search\n    self.input_text(self.SEARCH_FIELD, text=text)\npages/pages.py:43: in input_text\n    element = self.wait_for_element_to_be_clickable(locator=locator)\npages/pages.py:18: in wait_for_element_to_be_clickable\n    return WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(locator=locator))\nvenv/lib/python2.7/site-packages/selenium/webdriver/support/wait.py:71: in until\n    value = method(self._driver)\nvenv/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py:213: in __call__\n    element = visibility_of_element_located(self.locator)(driver)\nvenv/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py:78: in __call__\n    return _element_if_visible(_find_element(driver, self.locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ndriver = <appium.webdriver.webdriver.WebDriver (session=\"cca15748-4b10-4952-9282-68cc96f2d4e5\")>\nby = ('xpath', '//input[@class]', 'Search field')\n\n    def _find_element(driver, by):\n        \"\"\"Looks up an element. Logs and re-raises ``WebDriverException``\n        if thrown.\"\"\"\n        try:\n>           return driver.find_element(*by)\nE           TypeError: find_element() takes at most 3 arguments (4 given)\n\nvenv/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py:307: TypeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c179efbff04cf765",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "f22c6000-9200-4d7a-a6f1-50aac0a78175-attachment.png",
+    "type" : "image/png",
+    "size" : 95710,
+    "uid" : "cb180bee0bcad15f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "43007-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

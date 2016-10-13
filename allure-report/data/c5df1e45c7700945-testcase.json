@@ -1,0 +1,80 @@
+{
+  "uid" : "c5df1e45c7700945",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476283945085,
+    "stop" : 1476284018713,
+    "duration" : 73628
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a8a7806c9c34c167",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ {
+    "name" : "Click on ('xpath', '//button', 'Submit button')[2]",
+    "title" : "Click on ('xpath', '//button', 'Submit button')[2]",
+    "time" : {
+      "start" : 1476283999538,
+      "stop" : 1476284001589,
+      "duration" : 2051
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on ('xpath', \"//a[text()='Change to English']\", 'Change to English')[2]",
+    "title" : "Click on ('xpath', \"//a[text()='Change to English']\", 'Change to English')[2]",
+    "time" : {
+      "start" : 1476284005936,
+      "stop" : 1476284007981,
+      "duration" : 2045
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "129df8e6-ef46-4fbc-97f1-183bd0cf8f20-attachment.png",
+    "type" : "image/png",
+    "size" : 156717,
+    "uid" : "e4e4ba3bda4e29b4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "46037-MainThread"
+  } ],
+  "parameters" : [ ]
+}

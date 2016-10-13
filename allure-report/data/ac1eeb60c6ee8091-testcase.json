@@ -1,0 +1,53 @@
+{
+  "uid" : "ac1eeb60c6ee8091",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476283076172,
+    "stop" : 1476283129064,
+    "duration" : 52892
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "IndexError: tuple index out of range",
+    "stackTrace" : "self = <google_test.mobile_test.test_ios_google.TestGoogleSearch instance at 0x110e195f0>\n\n    def test_search(self):\n        main_google_page = MainGooglePage()\n>       main_google_page.search('Python guide')\n\ngoogle_test/mobile_test/test_ios_google.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/pages.py:70: in search\n    self.click(self.SUBMIT_BUTTON)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = (<pages.pages.MainGooglePage instance at 0x110e09d88>, ('xpath', '//button', 'Submit button'))\nkw = {}\n\n    @wraps(func)\n    def impl(*a, **kw):\n>       with StepContext(self.allure, self.title.format(*a, **kw)):\nE       IndexError: tuple index out of range\n\nvenv/lib/python2.7/site-packages/allure/common.py:56: IndexError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f3da4273bf17c4d3",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "3ff04f3c-bd65-493c-90dd-132ed620caa6-attachment.png",
+    "type" : "image/png",
+    "size" : 124919,
+    "uid" : "20b8a569a9fa2a4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "45745-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

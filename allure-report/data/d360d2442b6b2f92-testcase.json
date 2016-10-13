@@ -1,0 +1,56 @@
+{
+  "uid" : "d360d2442b6b2f92",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476194723668,
+    "stop" : 1476194791146,
+    "duration" : 67478
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ce4f475aac8b86ab",
+    "name" : "google_test.test_google",
+    "title" : "Test google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "a7a5d801-fde2-46e7-8e4e-85b7623c4f9a-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "5e0549a4d552460d"
+  }, {
+    "title" : "screenshot",
+    "source" : "8b10f580-9290-4e92-b6fb-a6513e1b113f-attachment.png",
+    "type" : "image/png",
+    "size" : 138509,
+    "uid" : "f0d34a624694845b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "32183-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.test_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

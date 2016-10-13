@@ -1,0 +1,95 @@
+{
+  "uid" : "e733347338acb5a2",
+  "name" : "TestGoogleSearch.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476286144021,
+    "stop" : 1476286170149,
+    "duration" : 26128
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1220527d965b0d0",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ {
+    "name" : "Input ('xpath', '//input[@class]', 'Input field') in to",
+    "title" : "Input ('xpath', '//input[@class]', 'Input field') in to",
+    "time" : {
+      "start" : 1476286144022,
+      "stop" : 1476286147091,
+      "duration" : 3069
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476286147091,
+      "stop" : 1476286149141,
+      "duration" : 2050
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "close_alert",
+    "title" : "close_alert",
+    "time" : {
+      "start" : 1476286149141,
+      "stop" : 1476286155189,
+      "duration" : 6048
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "76e19b15-a65f-40e8-ae84-548c94c69069-attachment.png",
+    "type" : "image/png",
+    "size" : 166198,
+    "uid" : "68cf1eb234872748"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "thread",
+    "value" : "47827-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

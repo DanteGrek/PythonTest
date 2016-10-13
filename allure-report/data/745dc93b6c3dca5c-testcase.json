@@ -1,0 +1,53 @@
+{
+  "uid" : "745dc93b6c3dca5c",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476284872469,
+    "stop" : 1476284922003,
+    "duration" : 49534
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "IndexError: tuple index out of range",
+    "stackTrace" : "self = <google_test.mobile_test.test_ios_google.TestGoogleSearch instance at 0x1066f9a28>\n\n    def test_search(self):\n        main_google_page = MainGooglePage()\n>       main_google_page.search('Python guide')\n\ngoogle_test/mobile_test/test_ios_google.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/pages.py:72: in search\n    self.input_text(self.SEARCH_FIELD, text=text)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = (<pages.pages.MainGooglePage instance at 0x1066e9bd8>, ('xpath', '//input[@class]', 'Input field'))\nkw = {'text': 'Python guide'}\n\n    @wraps(func)\n    def impl(*a, **kw):\n>       with StepContext(self.allure, self.title.format(*a, **kw)):\nE       IndexError: tuple index out of range\n\nvenv/lib/python2.7/site-packages/allure/common.py:56: IndexError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1b824e7a700f3c22",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "206d058c-a044-4346-9dd7-031e2f66d16b-attachment.png",
+    "type" : "image/png",
+    "size" : 95825,
+    "uid" : "a25b6605ec5ce611"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "46753-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

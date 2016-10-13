@@ -1,0 +1,89 @@
+{
+  "uid" : "77bb2792a07845b5",
+  "name" : "TestGoogleSearch2.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476351884545,
+    "stop" : 1476351896147,
+    "duration" : 11602
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d94d0ce3298cec3",
+    "name" : "google_test.web_test.test_web_google",
+    "title" : "Test web google"
+  },
+  "steps" : [ {
+    "name" : "Input text: 'JavaScript guide' into Input field",
+    "title" : "Input text: 'JavaScript guide' into Input field",
+    "time" : {
+      "start" : 1476351888886,
+      "stop" : 1476351889122,
+      "duration" : 236
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476351889122,
+      "stop" : 1476351889277,
+      "duration" : 155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Change to English",
+    "title" : "Click on Change to English",
+    "time" : {
+      "start" : 1476351894395,
+      "stop" : 1476351895582,
+      "duration" : 1187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "thread",
+    "value" : "52810-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.web_test.test_web_google"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "e883fd77762f354",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476260633904,
+    "stop" : 1476260702979,
+    "duration" : 69075
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AttributeError: Browser instance has no attribute 'browser'",
+    "stackTrace" : "def take_screenshot():\n>           allure.attach('screenshot', browser.get_driver().get_screenshot_as_png(), type=AttachmentType.PNG)\n\ngoogle_test/conftest.py:25: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <framework.Browser.Browser instance at 0x10e3de4d0>\n\n    def get_driver(self):\n>       return self.browser\nE       AttributeError: Browser instance has no attribute 'browser'\n\nframework/Browser.py:11: AttributeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "96aeb273621b8aa4",
+    "name" : "google_test.test_google",
+    "title" : "Test google"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.test_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "36156-MainThread"
+  } ],
+  "parameters" : [ ]
+}

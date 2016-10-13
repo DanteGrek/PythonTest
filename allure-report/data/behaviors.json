@@ -1,0 +1,70 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "6468e06cec760aa4",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "1cdd4c02e78ab76b",
+        "name" : "TestGoogleSearch.test_search",
+        "title" : "Test search",
+        "time" : {
+          "start" : 1476369682803,
+          "stop" : 1476369697274,
+          "duration" : 14471
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b43fbaa2951d12b",
+        "name" : "TestGoogleSearch2.test_search2",
+        "title" : "Test search 2",
+        "time" : {
+          "start" : 1476369769239,
+          "stop" : 1476369781867,
+          "duration" : 12628
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "a9f4f8da4317dac4",
+        "name" : "TestGoogleSearch.test_search2",
+        "title" : "Test search 2",
+        "time" : {
+          "start" : 1476369682803,
+          "stop" : 1476369735093,
+          "duration" : 52290
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "35e5eed033a71bc3",
+        "name" : "TestGoogleSearch.test_search",
+        "title" : "Test search",
+        "time" : {
+          "start" : 1476369682803,
+          "stop" : 1476369764584,
+          "duration" : 81781
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "35e5eed033a71bc3",
+  "name" : "TestGoogleSearch.test_search",
+  "title" : "Test search",
+  "time" : {
+    "start" : 1476369682803,
+    "stop" : 1476369764584,
+    "duration" : 81781
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "79509ee2b31199e7",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google"
+  },
+  "steps" : [ {
+    "name" : "Input text: 'Python guide' into Input field",
+    "title" : "Input text: 'Python guide' into Input field",
+    "time" : {
+      "start" : 1476369735811,
+      "stop" : 1476369738888,
+      "duration" : 3077
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Submit button",
+    "title" : "Click on Submit button",
+    "time" : {
+      "start" : 1476369738888,
+      "stop" : 1476369740933,
+      "duration" : 2045
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Close alert",
+    "title" : "Close alert",
+    "time" : {
+      "start" : 1476369743187,
+      "stop" : 1476369745099,
+      "duration" : 1912
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Click on Change to English",
+    "title" : "Click on Change to English",
+    "time" : {
+      "start" : 1476369746634,
+      "stop" : 1476369748685,
+      "duration" : 2051
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "dd613c27-fdd1-453f-a4b8-7c857770ce9d-attachment.png",
+    "type" : "image/png",
+    "size" : 160982,
+    "uid" : "81e6e5a4a5490a43"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.mobile_test.test_ios_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "54639-MainThread"
+  } ],
+  "parameters" : [ ]
+}

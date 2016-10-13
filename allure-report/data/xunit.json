@@ -1,0 +1,90 @@
+{
+  "time" : {
+    "start" : 1476369682803,
+    "stop" : 1476369781867,
+    "duration" : 99064
+  },
+  "testSuites" : [ {
+    "uid" : "57813ad2c4c12e3b",
+    "name" : "google_test.web_test.test_web_google",
+    "title" : "Test web google",
+    "time" : {
+      "start" : 1476369682803,
+      "stop" : 1476369781867,
+      "duration" : 99064
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1cdd4c02e78ab76b",
+      "name" : "TestGoogleSearch.test_search",
+      "title" : "Test search",
+      "time" : {
+        "start" : 1476369682803,
+        "stop" : 1476369697274,
+        "duration" : 14471
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "b43fbaa2951d12b",
+      "name" : "TestGoogleSearch2.test_search2",
+      "title" : "Test search 2",
+      "time" : {
+        "start" : 1476369769239,
+        "stop" : 1476369781867,
+        "duration" : 12628
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "79509ee2b31199e7",
+    "name" : "google_test.mobile_test.test_ios_google",
+    "title" : "Test ios google",
+    "time" : {
+      "start" : 1476369682803,
+      "stop" : 1476369764584,
+      "duration" : 81781
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a9f4f8da4317dac4",
+      "name" : "TestGoogleSearch.test_search2",
+      "title" : "Test search 2",
+      "time" : {
+        "start" : 1476369682803,
+        "stop" : 1476369735093,
+        "duration" : 52290
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "35e5eed033a71bc3",
+      "name" : "TestGoogleSearch.test_search",
+      "title" : "Test search",
+      "time" : {
+        "start" : 1476369682803,
+        "stop" : 1476369764584,
+        "duration" : 81781
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

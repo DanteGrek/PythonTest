@@ -1,0 +1,47 @@
+{
+  "uid" : "7e6b9e0eb94b0ba9",
+  "name" : "TestGoogleSearch.test_search2",
+  "title" : "Test search 2",
+  "time" : {
+    "start" : 1476260702982,
+    "stop" : 1476260702989,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AttributeError: TestGoogleSearch instance has no attribute 'main_google_page'",
+    "stackTrace" : "self = <google_test.test_google.TestGoogleSearch instance at 0x10e4d7cb0>\n\n    def test_search2(self):\n>       self.main_google_page.search('Java guide')\nE       AttributeError: TestGoogleSearch instance has no attribute 'main_google_page'\n\ngoogle_test/test_google.py:27: AttributeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "96aeb273621b8aa4",
+    "name" : "google_test.test_google",
+    "title" : "Test google"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "miniMonster.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "google_test.test_google"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "36156-MainThread"
+  } ],
+  "parameters" : [ ]
+}
